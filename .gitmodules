@@ -1,0 +1,3 @@
+[submodule "lisp/org-dashboard"]
+	path = lisp/org-dashboard
+	url = https://github.com/bard/org-dashboard
