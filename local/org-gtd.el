@@ -32,15 +32,19 @@
                  (org-agenda-overriding-header "\nHigh-priority unfinished tasks:\n")))
           (tags "PRIORITY=\"B\""
                 ((org-agenda-skip-function '(org-agenda-skip-entry-if 'todo 'done))
-                 (org-agenda-overriding-header "\nMedium-priority unfinished tasks:\n")))
+                 (org-agenda-overriding-header "\nMedium-priority unfinished tasks:\n")
+                 (org-agenda-skip-if nil '(scheduled deadline))))
+          (tags "PRIORITY=\"C\""
+                ((org-agenda-skip-function '(org-agenda-skip-entry-if 'todo 'done))
+                 (org-agenda-overriding-header "\nLow-priority unfinished tasks:\n")
+                 (org-agenda-skip-if nil '(scheduled deadline))))
           (agenda ""
                   ((org-agenda-overriding-header "\nScheduled tasks:\n")))
           (alltodo ""
                    ((org-agenda-skip-function
                      '(or (air-org-skip-subtree-if-priority ?A)
                           (air-org-skip-subtree-if-priority ?B)
-                          (org-agenda-skip-if nil '(scheduled deadline))))
-                    (org-agenda-overriding-header "\nBacklog:\n")))))))
+                          (org-agenda-overriding-header "\nBacklog:\n")))))))))
 
 
 ;; (setq org-agenda-custom-commands

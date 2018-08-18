@@ -17,18 +17,17 @@
 	ledger-mode
 	;; org-dashboard
 	;;;; python support bits
-        ;; elpy
+        elpy
 	;;;; ansible support bits
-	;; ansible
+	ansible
 	;;;; saltstack support bits
-        ;; salt-mode
+        salt-mode
         ;;;; golang support bits
-        ;; go-mode
-	;; go-guru
-	;; auto-complete
-	;; go-autocomplete
+        go-mode
+	go-guru
+	go-autocomplete
 	;; flymake-go
-        ;; exec-path-from-shell
+        exec-path-from-shell
         ))
 
 
