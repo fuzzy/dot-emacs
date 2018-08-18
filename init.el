@@ -15,6 +15,7 @@
 	htmlize
 	dash
 	ledger-mode
+	;; org-dashboard
 	;;;; python support bits
         ;; elpy
 	;;;; ansible support bits
@@ -30,7 +31,6 @@
         ;; exec-path-from-shell
         ))
 
-(define-key lisp-interaction-mode-map (kbd "<C-return>") 'eval-last-sexp)
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Package imports ;;
