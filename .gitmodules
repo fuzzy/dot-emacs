@@ -13,6 +13,3 @@
 [submodule "lisp/neotree"]
 	path = lisp/neotree
 	url = https://github.com/jaypei/emacs-neotree
-[submodule "lisp/better-defaults"]
-	path = lisp/better-defaults
-	url = https://github.com/technomancy/better-defaults
