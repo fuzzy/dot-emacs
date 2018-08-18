@@ -7,3 +7,6 @@
 [submodule "lisp/yasnippet"]
 	path = lisp/yasnippet
 	url = https://github.com/joaotavora/yasnippet
+[submodule "lisp/auto-complete"]
+	path = lisp/auto-complete
+	url = https://github.com/auto-complete/auto-complete
