@@ -28,10 +28,14 @@
 (setq org-agenda-custom-commands
       '(("r" "Sprint Report"
          ((tags "PRIORITY=\"A\""
-                ((org-agenda-skip-function '(org-agenda-skip-entry-if 'todo 'done))
+                ((org-agenda-skip-function
+                  '(or (org-agenda-skip-entry-if 'todo 'done)
+                       (my-org-agenda-skip-tag "active" t)))
                  (org-agenda-overriding-header "\nHigh-priority unfinished tasks:\n")))
           (tags "PRIORITY=\"B\""
-                ((org-agenda-skip-function '(org-agenda-skip-entry-if 'todo 'done))
+                ((org-agenda-skip-function
+                  '(or (org-agenda-skip-entry-if 'todo 'done)
+                       (my-org-agenda-skip-tag "active" t)))
                  (org-agenda-overriding-header "\nMedium-priority unfinished tasks:\n")))
           (agenda ""
                   ((org-agenda-overriding-header "\nScheduled tasks:\n")))
@@ -39,6 +43,7 @@
                    ((org-agenda-skip-function
                      '(or (air-org-skip-subtree-if-priority ?A)
                           (air-org-skip-subtree-if-priority ?B)
+                          (my-org-agenda-skip-tag "active" t)
                           (org-agenda-skip-if nil '(scheduled deadline))))
                     (org-agenda-overriding-header "\nBacklog:\n")))))))
 
@@ -54,6 +59,22 @@
 ;;;;;;;;;;;;;;;;;;;;;
 ;; ORG GTD Helpers ;;
 ;;;;;;;;;;;;;;;;;;;;;
+
+(defun my-org-agenda-skip-tag (tag &optional others)
+  "Skip all entries that correspond to TAG.
+
+If OTHERS is true, skip all entries that do not correspond to TAG."
+  (let ((next-headline (save-excursion (or (outline-next-heading) (point-max))))
+        (current-headline (or (and (org-at-heading-p)
+                                   (point))
+                              (save-excursion (org-back-to-heading)))))
+    (if others
+        (if (not (member tag (org-get-tags-at current-headline)))
+            next-headline
+          nil)
+      (if (member tag (org-get-tags-at current-headline))
+          next-headline
+        nil))))
 
 (defun pop-to-org-agenda (split)
   "Visit the org agenda, in the current window or a SPLIT."
