@@ -1,408 +1,10 @@
 ;;; org-plus-contrib-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
-(add-to-list 'load-path (directory-file-name
-                         (or (file-name-directory #$) (car load-path))))
-
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "ob-C" "ob-C.el" (0 0 0 0))
-;;; Generated autoloads from ob-C.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-C" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-J" "ob-J.el" (0 0 0 0))
-;;; Generated autoloads from ob-J.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-J" '("obj-" "org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-R" "ob-R.el" (0 0 0 0))
-;;; Generated autoloads from ob-R.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-R" '("ob-R-" "org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-abc" "ob-abc.el" (0 0 0 0))
-;;; Generated autoloads from ob-abc.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-abc" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-asymptote" "ob-asymptote.el" (0 0 0 0))
-;;; Generated autoloads from ob-asymptote.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-asymptote" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-awk" "ob-awk.el" (0 0 0 0))
-;;; Generated autoloads from ob-awk.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-awk" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-calc" "ob-calc.el" (0 0 0 0))
-;;; Generated autoloads from ob-calc.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-calc" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-clojure" "ob-clojure.el" (0 0 0 0))
-;;; Generated autoloads from ob-clojure.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-clojure" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-comint" "ob-comint.el" (0 0 0 0))
-;;; Generated autoloads from ob-comint.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-comint" '("org-babel-comint-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-coq" "ob-coq.el" (0 0 0 0))
-;;; Generated autoloads from ob-coq.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-coq" '("org-babel-" "coq-program-name")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "ob-core" "ob-core.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ob-core.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-core" '("org-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-csharp" "ob-csharp.el" (0 0 0 0))
-;;; Generated autoloads from ob-csharp.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-csharp" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-css" "ob-css.el" (0 0 0 0))
-;;; Generated autoloads from ob-css.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-css" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-ditaa" "ob-ditaa.el" (0 0 0 0))
-;;; Generated autoloads from ob-ditaa.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-ditaa" '("org-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-dot" "ob-dot.el" (0 0 0 0))
-;;; Generated autoloads from ob-dot.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-dot" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-ebnf" "ob-ebnf.el" (0 0 0 0))
-;;; Generated autoloads from ob-ebnf.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-ebnf" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-emacs-lisp" "ob-emacs-lisp.el" (0 0 0 0))
-;;; Generated autoloads from ob-emacs-lisp.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-emacs-lisp" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-eukleides" "ob-eukleides.el" (0 0 0 0))
-;;; Generated autoloads from ob-eukleides.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-eukleides" '("org-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-eval" "ob-eval.el" (0 0 0 0))
-;;; Generated autoloads from ob-eval.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-eval" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-exp" "ob-exp.el" (0 0 0 0))
-;;; Generated autoloads from ob-exp.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-exp" '("org-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-fomus" "ob-fomus.el" (0 0 0 0))
-;;; Generated autoloads from ob-fomus.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-fomus" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-forth" "ob-forth.el" (0 0 0 0))
-;;; Generated autoloads from ob-forth.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-forth" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-fortran" "ob-fortran.el" (0 0 0 0))
-;;; Generated autoloads from ob-fortran.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-fortran" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-gnuplot" "ob-gnuplot.el" (0 0 0 0))
-;;; Generated autoloads from ob-gnuplot.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-gnuplot" '("org-babel-" "*org-babel-gnuplot-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-groovy" "ob-groovy.el" (0 0 0 0))
-;;; Generated autoloads from ob-groovy.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-groovy" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-haskell" "ob-haskell.el" (0 0 0 0))
-;;; Generated autoloads from ob-haskell.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-haskell" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-hledger" "ob-hledger.el" (0 0 0 0))
-;;; Generated autoloads from ob-hledger.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-hledger" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-io" "ob-io.el" (0 0 0 0))
-;;; Generated autoloads from ob-io.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-io" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-java" "ob-java.el" (0 0 0 0))
-;;; Generated autoloads from ob-java.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-java" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-js" "ob-js.el" (0 0 0 0))
-;;; Generated autoloads from ob-js.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-js" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-julia" "ob-julia.el" (0 0 0 0))
-;;; Generated autoloads from ob-julia.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-julia" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "ob-keys" "ob-keys.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ob-keys.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-keys" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-latex" "ob-latex.el" (0 0 0 0))
-;;; Generated autoloads from ob-latex.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-latex" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-ledger" "ob-ledger.el" (0 0 0 0))
-;;; Generated autoloads from ob-ledger.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-ledger" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-lilypond" "ob-lilypond.el" (0 0 0 0))
-;;; Generated autoloads from ob-lilypond.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-lilypond" '("org-babel-" "lilypond-mode")))
-
-;;;***
-
-;;;### (autoloads nil "ob-lisp" "ob-lisp.el" (0 0 0 0))
-;;; Generated autoloads from ob-lisp.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-lisp" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "ob-lob" "ob-lob.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ob-lob.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-lob" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-lua" "ob-lua.el" (0 0 0 0))
-;;; Generated autoloads from ob-lua.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-lua" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-makefile" "ob-makefile.el" (0 0 0 0))
-;;; Generated autoloads from ob-makefile.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-makefile" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-mathematica" "ob-mathematica.el" (0 0 0
-;;;;;;  0))
-;;; Generated autoloads from ob-mathematica.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-mathematica" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-mathomatic" "ob-mathomatic.el" (0 0 0 0))
-;;; Generated autoloads from ob-mathomatic.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-mathomatic" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-maxima" "ob-maxima.el" (0 0 0 0))
-;;; Generated autoloads from ob-maxima.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-maxima" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-mscgen" "ob-mscgen.el" (0 0 0 0))
-;;; Generated autoloads from ob-mscgen.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-mscgen" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-ocaml" "ob-ocaml.el" (0 0 0 0))
-;;; Generated autoloads from ob-ocaml.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-ocaml" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-octave" "ob-octave.el" (0 0 0 0))
-;;; Generated autoloads from ob-octave.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-octave" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-org" "ob-org.el" (0 0 0 0))
-;;; Generated autoloads from ob-org.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-org" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-oz" "ob-oz.el" (0 0 0 0))
-;;; Generated autoloads from ob-oz.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-oz" '("oz-send-string-expression" "org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-perl" "ob-perl.el" (0 0 0 0))
-;;; Generated autoloads from ob-perl.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-perl" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-picolisp" "ob-picolisp.el" (0 0 0 0))
-;;; Generated autoloads from ob-picolisp.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-picolisp" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-plantuml" "ob-plantuml.el" (0 0 0 0))
-;;; Generated autoloads from ob-plantuml.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-plantuml" '("org-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-processing" "ob-processing.el" (0 0 0 0))
-;;; Generated autoloads from ob-processing.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-processing" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-python" "ob-python.el" (0 0 0 0))
-;;; Generated autoloads from ob-python.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-python" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-ref" "ob-ref.el" (0 0 0 0))
-;;; Generated autoloads from ob-ref.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-ref" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-ruby" "ob-ruby.el" (0 0 0 0))
-;;; Generated autoloads from ob-ruby.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-ruby" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-sass" "ob-sass.el" (0 0 0 0))
-;;; Generated autoloads from ob-sass.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-sass" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-scheme" "ob-scheme.el" (0 0 0 0))
-;;; Generated autoloads from ob-scheme.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-scheme" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-sclang" "ob-sclang.el" (0 0 0 0))
+;;;### (autoloads nil "ob-sclang" "ob-sclang.el" (23419 9085 147442
+;;;;;;  295000))
 ;;; Generated autoloads from ob-sclang.el
 
 (autoload 'org-babel-execute:sclang "ob-sclang" "\
@@ -410,103 +12,9 @@ Org-mode Babel sclang hook for evaluate `BODY' with `PARAMS'.
 
 \(fn BODY PARAMS)" nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-sclang" '("org-babel-default-header-args:sclang")))
-
 ;;;***
 
-;;;### (autoloads nil "ob-screen" "ob-screen.el" (0 0 0 0))
-;;; Generated autoloads from ob-screen.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-screen" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-sed" "ob-sed.el" (0 0 0 0))
-;;; Generated autoloads from ob-sed.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-sed" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-shell" "ob-shell.el" (0 0 0 0))
-;;; Generated autoloads from ob-shell.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-shell" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-shen" "ob-shen.el" (0 0 0 0))
-;;; Generated autoloads from ob-shen.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-shen" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-sql" "ob-sql.el" (0 0 0 0))
-;;; Generated autoloads from ob-sql.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-sql" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-sqlite" "ob-sqlite.el" (0 0 0 0))
-;;; Generated autoloads from ob-sqlite.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-sqlite" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-stan" "ob-stan.el" (0 0 0 0))
-;;; Generated autoloads from ob-stan.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-stan" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-stata" "ob-stata.el" (0 0 0 0))
-;;; Generated autoloads from ob-stata.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-stata" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-table" "ob-table.el" (0 0 0 0))
-;;; Generated autoloads from ob-table.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-table" '("org-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "ob-tangle" "ob-tangle.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ob-tangle.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-tangle" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-tcl" "ob-tcl.el" (0 0 0 0))
-;;; Generated autoloads from ob-tcl.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-tcl" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-vala" "ob-vala.el" (0 0 0 0))
-;;; Generated autoloads from ob-vala.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-vala" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "ob-vbnet" "ob-vbnet.el" (0 0 0 0))
-;;; Generated autoloads from ob-vbnet.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ob-vbnet" '("org-babel-")))
-
-;;;***
-
-;;;### (autoloads nil "org" "org.el" (0 0 0 0))
+;;;### (autoloads nil "org" "org.el" (23419 9085 759452 462000))
 ;;; Generated autoloads from org.el
 
 (autoload 'org-babel-do-load-languages "org" "\
@@ -726,11 +234,10 @@ Call the customize function with org as argument.
 
 \(fn)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org" '("org" "turn-on-org-cdlatex")))
-
 ;;;***
 
-;;;### (autoloads nil "org-agenda" "org-agenda.el" (0 0 0 0))
+;;;### (autoloads nil "org-agenda" "org-agenda.el" (23419 9085 227443
+;;;;;;  624000))
 ;;; Generated autoloads from org-agenda.el
 
 (autoload 'org-toggle-sticky-agenda "org-agenda" "\
@@ -1001,12 +508,10 @@ to override `appt-message-warning-time'.
 
 \(fn &optional REFRESH FILTER &rest ARGS)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-agenda" '("org-")))
-
 ;;;***
 
 ;;;### (autoloads nil "org-annotate-file" "org-annotate-file.el"
-;;;;;;  (0 0 0 0))
+;;;;;;  (23419 9085 235443 757000))
 ;;; Generated autoloads from org-annotate-file.el
 
 (autoload 'org-annotate-file "org-annotate-file" "\
@@ -1023,57 +528,10 @@ The annotation will link to ANNOTATED-BUFFER if specified,
 
 \(fn STORAGE-FILE &optional ANNOTATED-BUFFER)" nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-annotate-file" '("org-annotate-file-")))
-
 ;;;***
 
-;;;### (autoloads "actual autoloads are elsewhere" "org-archive"
-;;;;;;  "org-archive.el" (0 0 0 0))
-;;; Generated autoloads from org-archive.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-archive" '("org-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "org-attach" "org-attach.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from org-attach.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-attach" '("org-attach-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "org-bbdb" "org-bbdb.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from org-bbdb.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-bbdb" '("org-bbdb-")))
-
-;;;***
-
-;;;### (autoloads nil "org-bibtex" "org-bibtex.el" (0 0 0 0))
-;;; Generated autoloads from org-bibtex.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-bibtex" '("org-")))
-
-;;;***
-
-;;;### (autoloads nil "org-bibtex-extras" "org-bibtex-extras.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from org-bibtex-extras.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-bibtex-extras" '("obe-")))
-
-;;;***
-
-;;;### (autoloads nil "org-bookmark" "org-bookmark.el" (0 0 0 0))
-;;; Generated autoloads from org-bookmark.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-bookmark" '("org-bookmark-")))
-
-;;;***
-
-;;;### (autoloads nil "org-capture" "org-capture.el" (0 0 0 0))
+;;;### (autoloads nil "org-capture" "org-capture.el" (23419 9085
+;;;;;;  275444 421000))
 ;;; Generated autoloads from org-capture.el
 
 (autoload 'org-capture-string "org-capture" "\
@@ -1117,40 +575,10 @@ Set `org-capture-templates' to be similar to `org-remember-templates'.
 
 \(fn)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-capture" '("org-")))
-
 ;;;***
 
-;;;### (autoloads nil "org-checklist" "org-checklist.el" (0 0 0 0))
-;;; Generated autoloads from org-checklist.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-checklist" '("org-")))
-
-;;;***
-
-;;;### (autoloads nil "org-choose" "org-choose.el" (0 0 0 0))
-;;; Generated autoloads from org-choose.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-choose" '("org-choose-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "org-clock" "org-clock.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from org-clock.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-clock" '("org-")))
-
-;;;***
-
-;;;### (autoloads nil "org-collector" "org-collector.el" (0 0 0 0))
-;;; Generated autoloads from org-collector.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-collector" '("org-" "and-rest")))
-
-;;;***
-
-;;;### (autoloads nil "org-colview" "org-colview.el" (0 0 0 0))
+;;;### (autoloads nil "org-colview" "org-colview.el" (23419 9085
+;;;;;;  307444 952000))
 ;;; Generated autoloads from org-colview.el
 
 (autoload 'org-columns-remove-overlays "org-colview" "\
@@ -1216,11 +644,10 @@ Turn on or update column view in the agenda.
 
 \(fn)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-colview" '("org-")))
-
 ;;;***
 
-;;;### (autoloads nil "org-compat" "org-compat.el" (0 0 0 0))
+;;;### (autoloads nil "org-compat" "org-compat.el" (23419 9085 315445
+;;;;;;  86000))
 ;;; Generated autoloads from org-compat.el
 
 (autoload 'org-check-version "org-compat" "\
@@ -1228,11 +655,10 @@ Try very hard to provide sensible version strings.
 
 \(fn)" nil t)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-compat" '("org-")))
-
 ;;;***
 
-;;;### (autoloads nil "org-contacts" "org-contacts.el" (0 0 0 0))
+;;;### (autoloads nil "org-contacts" "org-contacts.el" (23419 9085
+;;;;;;  319445 152000))
 ;;; Generated autoloads from org-contacts.el
 
 (autoload 'org-contacts "org-contacts" "\
@@ -1240,54 +666,10 @@ Create agenda view for contacts matching NAME.
 
 \(fn NAME)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-contacts" '("org-co" "erc-nicknames-list")))
-
 ;;;***
 
-;;;### (autoloads nil "org-crypt" "org-crypt.el" (0 0 0 0))
-;;; Generated autoloads from org-crypt.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-crypt" '("org-")))
-
-;;;***
-
-;;;### (autoloads nil "org-ctags" "org-ctags.el" (0 0 0 0))
-;;; Generated autoloads from org-ctags.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-ctags" '("org-ctags-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "org-datetree"
-;;;;;;  "org-datetree.el" (0 0 0 0))
-;;; Generated autoloads from org-datetree.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-datetree" '("org-datetree-")))
-
-;;;***
-
-;;;### (autoloads nil "org-depend" "org-depend.el" (0 0 0 0))
-;;; Generated autoloads from org-depend.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-depend" '("org-depend-")))
-
-;;;***
-
-;;;### (autoloads nil "org-docview" "org-docview.el" (0 0 0 0))
-;;; Generated autoloads from org-docview.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-docview" '("org-docview-")))
-
-;;;***
-
-;;;### (autoloads nil "org-drill" "org-drill.el" (0 0 0 0))
-;;; Generated autoloads from org-drill.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-drill" '("org-" "shuffle-list" "spelln-integer-in-language" "*org-drill-" "with-" "drill-answer" "determine-next-interval-s" "initial-optimal-factor-sm5" "inter-repetition-interval-sm5" "get-optimal-factor-sm5" "pop-random" "push-end" "pseudonormal" "time-to-" "command-keybinding-to-string" "round-float" "free-marker")))
-
-;;;***
-
-;;;### (autoloads nil "org-duration" "org-duration.el" (0 0 0 0))
+;;;### (autoloads nil "org-duration" "org-duration.el" (23419 9085
+;;;;;;  359445 816000))
 ;;; Generated autoloads from org-duration.el
 
 (autoload 'org-duration-set-regexps "org-duration" "\
@@ -1339,19 +721,10 @@ with \"H:MM:SS\" format, return `h:mm:ss'.  Otherwise, return
 
 \(fn TIMES)" nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-duration" '("org-duration-")))
-
 ;;;***
 
-;;;### (autoloads nil "org-effectiveness" "org-effectiveness.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from org-effectiveness.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-effectiveness" '("org-effectiveness-")))
-
-;;;***
-
-;;;### (autoloads nil "org-eldoc" "org-eldoc.el" (0 0 0 0))
+;;;### (autoloads nil "org-eldoc" "org-eldoc.el" (23419 9085 371446
+;;;;;;  16000))
 ;;; Generated autoloads from org-eldoc.el
 
 (autoload 'org-eldoc-load "org-eldoc" "\
@@ -1361,189 +734,10 @@ Set up org-eldoc documentation function.
 
 (add-hook 'org-mode-hook #'org-eldoc-load)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-eldoc" '("org-eldoc-")))
-
 ;;;***
 
-;;;### (autoloads "actual autoloads are elsewhere" "org-element"
-;;;;;;  "org-element.el" (0 0 0 0))
-;;; Generated autoloads from org-element.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-element" '("org-element-")))
-
-;;;***
-
-;;;### (autoloads nil "org-elisp-symbol" "org-elisp-symbol.el" (0
-;;;;;;  0 0 0))
-;;; Generated autoloads from org-elisp-symbol.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-elisp-symbol" '("org-elisp-symbol-")))
-
-;;;***
-
-;;;### (autoloads nil "org-entities" "org-entities.el" (0 0 0 0))
-;;; Generated autoloads from org-entities.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-entities" '("org-entit")))
-
-;;;***
-
-;;;### (autoloads nil "org-eshell" "org-eshell.el" (0 0 0 0))
-;;; Generated autoloads from org-eshell.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-eshell" '("org-eshell-")))
-
-;;;***
-
-;;;### (autoloads nil "org-eval" "org-eval.el" (0 0 0 0))
-;;; Generated autoloads from org-eval.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-eval" '("org-eval-")))
-
-;;;***
-
-;;;### (autoloads nil "org-eval-light" "org-eval-light.el" (0 0 0
-;;;;;;  0))
-;;; Generated autoloads from org-eval-light.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-eval-light" '("org-eval-light-")))
-
-;;;***
-
-;;;### (autoloads nil "org-eww" "org-eww.el" (0 0 0 0))
-;;; Generated autoloads from org-eww.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-eww" '("org-eww-")))
-
-;;;***
-
-;;;### (autoloads nil "org-expiry" "org-expiry.el" (0 0 0 0))
-;;; Generated autoloads from org-expiry.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-expiry" '("org-expiry-")))
-
-;;;***
-
-;;;### (autoloads nil "org-faces" "org-faces.el" (0 0 0 0))
-;;; Generated autoloads from org-faces.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-faces" '("org-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "org-feed" "org-feed.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from org-feed.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-feed" '("org-feed-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "org-footnote"
-;;;;;;  "org-footnote.el" (0 0 0 0))
-;;; Generated autoloads from org-footnote.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-footnote" '("org-footnote-")))
-
-;;;***
-
-;;;### (autoloads nil "org-git-link" "org-git-link.el" (0 0 0 0))
-;;; Generated autoloads from org-git-link.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-git-link" '("org-git")))
-
-;;;***
-
-;;;### (autoloads nil "org-gnus" "org-gnus.el" (0 0 0 0))
-;;; Generated autoloads from org-gnus.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-gnus" '("org-gnus-")))
-
-;;;***
-
-;;;### (autoloads nil "org-habit" "org-habit.el" (0 0 0 0))
-;;; Generated autoloads from org-habit.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-habit" '("org-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "org-id" "org-id.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from org-id.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-id" '("org-id-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "org-indent" "org-indent.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from org-indent.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-indent" '("org-")))
-
-;;;***
-
-;;;### (autoloads nil "org-index" "org-index.el" (0 0 0 0))
-;;; Generated autoloads from org-index.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-index" '("org-index")))
-
-;;;***
-
-;;;### (autoloads nil "org-info" "org-info.el" (0 0 0 0))
-;;; Generated autoloads from org-info.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-info" '("org-info-")))
-
-;;;***
-
-;;;### (autoloads nil "org-inlinetask" "org-inlinetask.el" (0 0 0
-;;;;;;  0))
-;;; Generated autoloads from org-inlinetask.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-inlinetask" '("org-inlinetask-")))
-
-;;;***
-
-;;;### (autoloads nil "org-interactive-query" "org-interactive-query.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from org-interactive-query.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-interactive-query" '("org-agenda-query-")))
-
-;;;***
-
-;;;### (autoloads nil "org-invoice" "org-invoice.el" (0 0 0 0))
-;;; Generated autoloads from org-invoice.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-invoice" '("org-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "org-irc" "org-irc.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from org-irc.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-irc" '("org-irc-")))
-
-;;;***
-
-;;;### (autoloads nil "org-learn" "org-learn.el" (0 0 0 0))
-;;; Generated autoloads from org-learn.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-learn" '("org-" "determine-next-interval" "inter-repetition-interval" "initial-" "calculate-new-optimal-factor" "modify-" "set-optimal-factor" "get-optimal-factor")))
-
-;;;***
-
-;;;### (autoloads nil "org-license" "org-license.el" (0 0 0 0))
-;;; Generated autoloads from org-license.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-license" '("org-license-")))
-
-;;;***
-
-;;;### (autoloads nil "org-link-edit" "org-link-edit.el" (0 0 0 0))
+;;;### (autoloads nil "org-link-edit" "org-link-edit.el" (23419 9085
+;;;;;;  531448 673000))
 ;;; Generated autoloads from org-link-edit.el
 
 (autoload 'org-link-edit-forward-slurp "org-link-edit" "\
@@ -1639,11 +833,10 @@ END.
 
 \(fn &optional PREVIOUS BEG END)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-link-edit" '("org-link-edit--")))
-
 ;;;***
 
-;;;### (autoloads nil "org-lint" "org-lint.el" (0 0 0 0))
+;;;### (autoloads nil "org-lint" "org-lint.el" (23419 9085 535448
+;;;;;;  740000))
 ;;; Generated autoloads from org-lint.el
 
 (autoload 'org-lint "org-lint" "\
@@ -1657,25 +850,10 @@ ARG can also be a list of checker names, as symbols, to run.
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-lint" '("org-lint-")))
-
 ;;;***
 
-;;;### (autoloads nil "org-list" "org-list.el" (0 0 0 0))
-;;; Generated autoloads from org-list.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-list" '("org-")))
-
-;;;***
-
-;;;### (autoloads nil "org-mac-iCal" "org-mac-iCal.el" (0 0 0 0))
-;;; Generated autoloads from org-mac-iCal.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-mac-iCal" '("org-mac-iCal" "omi-")))
-
-;;;***
-
-;;;### (autoloads nil "org-mac-link" "org-mac-link.el" (0 0 0 0))
+;;;### (autoloads nil "org-mac-link" "org-mac-link.el" (23419 9085
+;;;;;;  563449 205000))
 ;;; Generated autoloads from org-mac-link.el
 
 (autoload 'org-mac-grab-link "org-mac-link" "\
@@ -1840,18 +1018,10 @@ list of message:// links to flagged mail after heading.
 
 \(fn ORG-BUFFER ORG-HEADING)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-mac-link" '("org-" "as-get-s")))
-
 ;;;***
 
-;;;### (autoloads nil "org-macro" "org-macro.el" (0 0 0 0))
-;;; Generated autoloads from org-macro.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-macro" '("org-macro-")))
-
-;;;***
-
-;;;### (autoloads nil "org-macs" "org-macs.el" (0 0 0 0))
+;;;### (autoloads nil "org-macs" "org-macs.el" (23419 9085 575449
+;;;;;;  405000))
 ;;; Generated autoloads from org-macs.el
 
 (autoload 'org-load-noerror-mustsuffix "org-macs" "\
@@ -1859,75 +1029,10 @@ Load FILE with optional arguments NOERROR and MUSTSUFFIX.
 
 \(fn FILE)" nil t)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-macs" '("org-")))
-
 ;;;***
 
-;;;### (autoloads nil "org-mairix" "org-mairix.el" (0 0 0 0))
-;;; Generated autoloads from org-mairix.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-mairix" '("org-")))
-
-;;;***
-
-;;;### (autoloads nil "org-man" "org-man.el" (0 0 0 0))
-;;; Generated autoloads from org-man.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-man" '("org-man-")))
-
-;;;***
-
-;;;### (autoloads nil "org-mew" "org-mew.el" (0 0 0 0))
-;;; Generated autoloads from org-mew.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-mew" '("org-mew-")))
-
-;;;***
-
-;;;### (autoloads nil "org-mhe" "org-mhe.el" (0 0 0 0))
-;;; Generated autoloads from org-mhe.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-mhe" '("org-mhe-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "org-mobile" "org-mobile.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from org-mobile.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-mobile" '("org-mobile-")))
-
-;;;***
-
-;;;### (autoloads nil "org-mouse" "org-mouse.el" (0 0 0 0))
-;;; Generated autoloads from org-mouse.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-mouse" '("org-mouse-")))
-
-;;;***
-
-;;;### (autoloads nil "org-notify" "org-notify.el" (0 0 0 0))
-;;; Generated autoloads from org-notify.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-notify" '("org-notify-")))
-
-;;;***
-
-;;;### (autoloads nil "org-notmuch" "org-notmuch.el" (0 0 0 0))
-;;; Generated autoloads from org-notmuch.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-notmuch" '("org-notmuch-")))
-
-;;;***
-
-;;;### (autoloads nil "org-panel" "org-panel.el" (0 0 0 0))
-;;; Generated autoloads from org-panel.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-panel" '("orgpan-")))
-
-;;;***
-
-;;;### (autoloads nil "org-passwords" "org-passwords.el" (0 0 0 0))
+;;;### (autoloads nil "org-passwords" "org-passwords.el" (23419 9085
+;;;;;;  627450 269000))
 ;;; Generated autoloads from org-passwords.el
 
 (autoload 'org-passwords-mode "org-passwords" "\
@@ -1949,33 +1054,10 @@ With a double prefix arg \\[universal-argument] \\[universal-argument], open the
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-passwords" '("org-passwords-")))
-
 ;;;***
 
-;;;### (autoloads nil "org-pcomplete" "org-pcomplete.el" (0 0 0 0))
-;;; Generated autoloads from org-pcomplete.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-pcomplete" '("org-" "pcomplete/org-mode/")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "org-plot" "org-plot.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from org-plot.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-plot" '("org-plot")))
-
-;;;***
-
-;;;### (autoloads nil "org-protocol" "org-protocol.el" (0 0 0 0))
-;;; Generated autoloads from org-protocol.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-protocol" '("org-protocol-")))
-
-;;;***
-
-;;;### (autoloads nil "org-registry" "org-registry.el" (0 0 0 0))
+;;;### (autoloads nil "org-registry" "org-registry.el" (23419 9085
+;;;;;;  651450 667000))
 ;;; Generated autoloads from org-registry.el
 
 (autoload 'org-registry-show "org-registry" "\
@@ -2010,26 +1092,10 @@ Update the registry for the current Org file.
 
 \(fn)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-registry" '("org-registry-")))
-
 ;;;***
 
-;;;### (autoloads nil "org-rmail" "org-rmail.el" (0 0 0 0))
-;;; Generated autoloads from org-rmail.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-rmail" '("org-rmail-")))
-
-;;;***
-
-;;;### (autoloads nil "org-screen" "org-screen.el" (0 0 0 0))
-;;; Generated autoloads from org-screen.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-screen" '("org-screen")))
-
-;;;***
-
-;;;### (autoloads nil "org-screenshot" "org-screenshot.el" (0 0 0
-;;;;;;  0))
+;;;### (autoloads nil "org-screenshot" "org-screenshot.el" (23419
+;;;;;;  9085 667450 933000))
 ;;; Generated autoloads from org-screenshot.el
 
 (autoload 'org-screenshot-take "org-screenshot" "\
@@ -2070,56 +1136,9 @@ Open A Dired buffer with unused screenshots marked
 
 \(fn)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-screenshot" '("org-screenshot-")))
-
 ;;;***
 
-;;;### (autoloads nil "org-secretary" "org-secretary.el" (0 0 0 0))
-;;; Generated autoloads from org-secretary.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-secretary" '("org-sec-" "join")))
-
-;;;***
-
-;;;### (autoloads nil "org-src" "org-src.el" (0 0 0 0))
-;;; Generated autoloads from org-src.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-src" '("org-")))
-
-;;;***
-
-;;;### (autoloads nil "org-static-mathjax" "org-static-mathjax.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from org-static-mathjax.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-static-mathjax" '("org-static-mathjax-")))
-
-;;;***
-
-;;;### (autoloads nil "org-sudoku" "org-sudoku.el" (0 0 0 0))
-;;; Generated autoloads from org-sudoku.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-sudoku" '("org-sudoku-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "org-table" "org-table.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from org-table.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-table" '("org")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "org-timer" "org-timer.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from org-timer.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-timer" '("org-timer-")))
-
-;;;***
-
-;;;### (autoloads nil "org-toc" "org-toc.el" (0 0 0 0))
+;;;### (autoloads nil "org-toc" "org-toc.el" (23419 9085 711451 664000))
 ;;; Generated autoloads from org-toc.el
 
 (autoload 'org-toc-show "org-toc" "\
@@ -2127,11 +1146,10 @@ Show the table of contents of the current Org-mode buffer.
 
 \(fn &optional DEPTH POSITION)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-toc" '("org-")))
-
 ;;;***
 
-;;;### (autoloads nil "org-track" "org-track.el" (0 0 0 0))
+;;;### (autoloads nil "org-track" "org-track.el" (23419 9085 715451
+;;;;;;  730000))
 ;;; Generated autoloads from org-track.el
 
 (autoload 'org-track-fetch-package "org-track" "\
@@ -2150,18 +1168,10 @@ DIRECTORY is where the directory org-mode/ lives (i.e. the
 
 \(fn &optional DIRECTORY)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-track" '("org-track-")))
-
 ;;;***
 
-;;;### (autoloads nil "org-velocity" "org-velocity.el" (0 0 0 0))
-;;; Generated autoloads from org-velocity.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-velocity" '("org-velocity")))
-
-;;;***
-
-;;;### (autoloads nil "org-version" "org-version.el" (0 0 0 0))
+;;;### (autoloads nil "org-version" "org-version.el" (23419 9085
+;;;;;;  727451 930000))
 ;;; Generated autoloads from org-version.el
 
 (autoload 'org-release "org-version" "\
@@ -2181,95 +1191,8 @@ The location of ODT styles.")
 
 ;;;***
 
-;;;### (autoloads nil "org-vm" "org-vm.el" (0 0 0 0))
-;;; Generated autoloads from org-vm.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-vm" '("org-vm-")))
-
-;;;***
-
-;;;### (autoloads nil "org-w3m" "org-w3m.el" (0 0 0 0))
-;;; Generated autoloads from org-w3m.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-w3m" '("org-w3m-")))
-
-;;;***
-
-;;;### (autoloads nil "org-wikinodes" "org-wikinodes.el" (0 0 0 0))
-;;; Generated autoloads from org-wikinodes.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-wikinodes" '("org-wikinodes-")))
-
-;;;***
-
-;;;### (autoloads nil "org-wl" "org-wl.el" (0 0 0 0))
-;;; Generated autoloads from org-wl.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-wl" '("org-wl-")))
-
-;;;***
-
-;;;### (autoloads nil "orgtbl-sqlinsert" "orgtbl-sqlinsert.el" (0
-;;;;;;  0 0 0))
-;;; Generated autoloads from orgtbl-sqlinsert.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "orgtbl-sqlinsert" '("orgtbl-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "ox" "ox.el" (0
-;;;;;;  0 0 0))
-;;; Generated autoloads from ox.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox" '("org-export-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "ox-ascii" "ox-ascii.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ox-ascii.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-ascii" '("org-ascii-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "ox-beamer" "ox-beamer.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ox-beamer.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-beamer" '("org-beamer-")))
-
-;;;***
-
-;;;### (autoloads nil "ox-bibtex" "ox-bibtex.el" (0 0 0 0))
-;;; Generated autoloads from ox-bibtex.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-bibtex" '("org-bibtex-")))
-
-;;;***
-
-;;;### (autoloads nil "ox-confluence" "ox-confluence.el" (0 0 0 0))
-;;; Generated autoloads from ox-confluence.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-confluence" '("org-confluence-")))
-
-;;;***
-
-;;;### (autoloads nil "ox-deck" "ox-deck.el" (0 0 0 0))
-;;; Generated autoloads from ox-deck.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-deck" '("org-deck-")))
-
-;;;***
-
-;;;### (autoloads nil "ox-extra" "ox-extra.el" (0 0 0 0))
-;;; Generated autoloads from ox-extra.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-extra" '("org-" "ox-extras")))
-
-;;;***
-
-;;;### (autoloads nil "ox-freemind" "ox-freemind.el" (0 0 0 0))
+;;;### (autoloads nil "ox-freemind" "ox-freemind.el" (23419 9085
+;;;;;;  815453 392000))
 ;;; Generated autoloads from ox-freemind.el
 
 (autoload 'org-freemind-export-to-freemind "ox-freemind" "\
@@ -2302,35 +1225,10 @@ Return output file's name.
 
 \(fn &optional ASYNC SUBTREEP VISIBLE-ONLY BODY-ONLY EXT-PLIST)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-freemind" '("org-freemind-")))
-
 ;;;***
 
-;;;### (autoloads nil "ox-groff" "ox-groff.el" (0 0 0 0))
-;;; Generated autoloads from ox-groff.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-groff" '("org-groff-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "ox-html" "ox-html.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ox-html.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-html" '("org-html-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "ox-icalendar"
-;;;;;;  "ox-icalendar.el" (0 0 0 0))
-;;; Generated autoloads from ox-icalendar.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-icalendar" '("org-icalendar-")))
-
-;;;***
-
-;;;### (autoloads nil "ox-koma-letter" "ox-koma-letter.el" (0 0 0
-;;;;;;  0))
+;;;### (autoloads nil "ox-koma-letter" "ox-koma-letter.el" (23419
+;;;;;;  9085 835453 724000))
 ;;; Generated autoloads from ox-koma-letter.el
 
 (autoload 'org-koma-letter-export-as-latex "ox-koma-letter" "\
@@ -2428,59 +1326,9 @@ Return PDF file's name.
 
 \(fn &optional ASYNC SUBTREEP VISIBLE-ONLY BODY-ONLY EXT-PLIST)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-koma-letter" '("org-koma-letter-")))
-
 ;;;***
 
-;;;### (autoloads "actual autoloads are elsewhere" "ox-latex" "ox-latex.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ox-latex.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-latex" '("org-latex-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "ox-man" "ox-man.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ox-man.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-man" '("org-man-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "ox-md" "ox-md.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ox-md.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-md" '("org-md-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "ox-odt" "ox-odt.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ox-odt.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-odt" '("org-odt-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "ox-org" "ox-org.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ox-org.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-org" '("org-org-")))
-
-;;;***
-
-;;;### (autoloads "actual autoloads are elsewhere" "ox-publish" "ox-publish.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ox-publish.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-publish" '("org-publish-")))
-
-;;;***
-
-;;;### (autoloads nil "ox-rss" "ox-rss.el" (0 0 0 0))
+;;;### (autoloads nil "ox-rss" "ox-rss.el" (23419 9085 875454 388000))
 ;;; Generated autoloads from ox-rss.el
 
 (autoload 'org-rss-export-as-rss "ox-rss" "\
@@ -2542,19 +1390,10 @@ Return output file name.
 
 \(fn PLIST FILENAME PUB-DIR)" nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-rss" '("org-rss-")))
-
 ;;;***
 
-;;;### (autoloads nil "ox-s5" "ox-s5.el" (0 0 0 0))
-;;; Generated autoloads from ox-s5.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-s5" '("org-s5-")))
-
-;;;***
-
-;;;### (autoloads nil "ox-taskjuggler" "ox-taskjuggler.el" (0 0 0
-;;;;;;  0))
+;;;### (autoloads nil "ox-taskjuggler" "ox-taskjuggler.el" (23419
+;;;;;;  9085 883454 521000))
 ;;; Generated autoloads from ox-taskjuggler.el
 
 (autoload 'org-taskjuggler-export "ox-taskjuggler" "\
@@ -2638,28 +1477,47 @@ the reports is done using the TaskJuggler GUI.
 
 \(fn &optional SUBTREEP VISIBLE-ONLY)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-taskjuggler" '("org-taskjuggler-")))
-
 ;;;***
 
-;;;### (autoloads "actual autoloads are elsewhere" "ox-texinfo" "ox-texinfo.el"
-;;;;;;  (0 0 0 0))
-;;; Generated autoloads from ox-texinfo.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ox-texinfo" '("org-texinfo-")))
-
-;;;***
-
-;;;### (autoloads nil nil ("ob-core.el" "ob-keys.el" "ob-lob.el"
-;;;;;;  "ob-matlab.el" "ob-tangle.el" "ob.el" "org-archive.el" "org-attach.el"
-;;;;;;  "org-bbdb.el" "org-clock.el" "org-contribdir.el" "org-datetree.el"
-;;;;;;  "org-element.el" "org-feed.el" "org-footnote.el" "org-id.el"
-;;;;;;  "org-indent.el" "org-install.el" "org-irc.el" "org-loaddefs.el"
-;;;;;;  "org-mobile.el" "org-plot.el" "org-plus-contrib-pkg.el" "org-table.el"
-;;;;;;  "org-timer.el" "ox-ascii.el" "ox-beamer.el" "ox-html.el"
-;;;;;;  "ox-icalendar.el" "ox-latex.el" "ox-man.el" "ox-md.el" "ox-odt.el"
-;;;;;;  "ox-org.el" "ox-publish.el" "ox-texinfo.el" "ox.el") (0 0
-;;;;;;  0 0))
+;;;### (autoloads nil nil ("ob-C.el" "ob-J.el" "ob-R.el" "ob-abc.el"
+;;;;;;  "ob-asymptote.el" "ob-awk.el" "ob-calc.el" "ob-clojure.el"
+;;;;;;  "ob-comint.el" "ob-coq.el" "ob-core.el" "ob-csharp.el" "ob-css.el"
+;;;;;;  "ob-ditaa.el" "ob-dot.el" "ob-ebnf.el" "ob-emacs-lisp.el"
+;;;;;;  "ob-eukleides.el" "ob-eval.el" "ob-exp.el" "ob-fomus.el"
+;;;;;;  "ob-forth.el" "ob-fortran.el" "ob-gnuplot.el" "ob-groovy.el"
+;;;;;;  "ob-haskell.el" "ob-hledger.el" "ob-io.el" "ob-java.el" "ob-js.el"
+;;;;;;  "ob-julia.el" "ob-keys.el" "ob-latex.el" "ob-ledger.el" "ob-lilypond.el"
+;;;;;;  "ob-lisp.el" "ob-lob.el" "ob-lua.el" "ob-makefile.el" "ob-mathematica.el"
+;;;;;;  "ob-mathomatic.el" "ob-matlab.el" "ob-maxima.el" "ob-mscgen.el"
+;;;;;;  "ob-ocaml.el" "ob-octave.el" "ob-org.el" "ob-oz.el" "ob-perl.el"
+;;;;;;  "ob-picolisp.el" "ob-plantuml.el" "ob-processing.el" "ob-python.el"
+;;;;;;  "ob-ref.el" "ob-ruby.el" "ob-sass.el" "ob-scheme.el" "ob-screen.el"
+;;;;;;  "ob-sed.el" "ob-shell.el" "ob-shen.el" "ob-sql.el" "ob-sqlite.el"
+;;;;;;  "ob-stan.el" "ob-stata.el" "ob-table.el" "ob-tangle.el" "ob-tcl.el"
+;;;;;;  "ob-vala.el" "ob-vbnet.el" "ob.el" "org-archive.el" "org-attach.el"
+;;;;;;  "org-bbdb.el" "org-bibtex-extras.el" "org-bibtex.el" "org-bookmark.el"
+;;;;;;  "org-checklist.el" "org-choose.el" "org-clock.el" "org-collector.el"
+;;;;;;  "org-contribdir.el" "org-crypt.el" "org-ctags.el" "org-datetree.el"
+;;;;;;  "org-depend.el" "org-docview.el" "org-drill.el" "org-effectiveness.el"
+;;;;;;  "org-element.el" "org-elisp-symbol.el" "org-entities.el"
+;;;;;;  "org-eshell.el" "org-eval-light.el" "org-eval.el" "org-eww.el"
+;;;;;;  "org-expiry.el" "org-faces.el" "org-feed.el" "org-footnote.el"
+;;;;;;  "org-git-link.el" "org-gnus.el" "org-habit.el" "org-id.el"
+;;;;;;  "org-indent.el" "org-index.el" "org-info.el" "org-inlinetask.el"
+;;;;;;  "org-install.el" "org-interactive-query.el" "org-invoice.el"
+;;;;;;  "org-irc.el" "org-learn.el" "org-license.el" "org-list.el"
+;;;;;;  "org-loaddefs.el" "org-mac-iCal.el" "org-macro.el" "org-mairix.el"
+;;;;;;  "org-man.el" "org-mew.el" "org-mhe.el" "org-mobile.el" "org-mouse.el"
+;;;;;;  "org-notify.el" "org-notmuch.el" "org-panel.el" "org-pcomplete.el"
+;;;;;;  "org-plot.el" "org-plus-contrib-pkg.el" "org-protocol.el"
+;;;;;;  "org-rmail.el" "org-screen.el" "org-secretary.el" "org-src.el"
+;;;;;;  "org-static-mathjax.el" "org-sudoku.el" "org-table.el" "org-timer.el"
+;;;;;;  "org-velocity.el" "org-vm.el" "org-w3m.el" "org-wikinodes.el"
+;;;;;;  "org-wl.el" "orgtbl-sqlinsert.el" "ox-ascii.el" "ox-beamer.el"
+;;;;;;  "ox-bibtex.el" "ox-confluence.el" "ox-deck.el" "ox-extra.el"
+;;;;;;  "ox-groff.el" "ox-html.el" "ox-icalendar.el" "ox-latex.el"
+;;;;;;  "ox-man.el" "ox-md.el" "ox-odt.el" "ox-org.el" "ox-publish.el"
+;;;;;;  "ox-s5.el" "ox-texinfo.el" "ox.el") (23419 9085 947455 585000))
 
 ;;;***
 
@@ -2667,6 +1525,5 @@ the reports is done using the TaskJuggler GUI.
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; org-plus-contrib-autoloads.el ends here

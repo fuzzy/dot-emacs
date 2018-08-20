@@ -1,12 +1,9 @@
 ;;; go-guru-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
-(add-to-list 'load-path (directory-file-name
-                         (or (file-name-directory #$) (car load-path))))
-
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "go-guru" "go-guru.el" (0 0 0 0))
+;;;### (autoloads nil "go-guru" "go-guru.el" (23419 9117 627981 811000))
 ;;; Generated autoloads from go-guru.el
 
 (autoload 'go-guru-set-scope "go-guru" "\
@@ -101,14 +98,11 @@ timeout.
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "go-guru" '("go-guru-")))
-
 ;;;***
 
 ;; Local Variables:
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; go-guru-autoloads.el ends here

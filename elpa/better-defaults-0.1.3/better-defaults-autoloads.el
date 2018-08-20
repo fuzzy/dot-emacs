@@ -1,13 +1,10 @@
 ;;; better-defaults-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
-(add-to-list 'load-path (directory-file-name
-                         (or (file-name-directory #$) (car load-path))))
-
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "better-defaults" "better-defaults.el" (0 0
-;;;;;;  0 0))
+;;;### (autoloads nil "better-defaults" "better-defaults.el" (23419
+;;;;;;  9048 962841 174000))
 ;;; Generated autoloads from better-defaults.el
 
 (ido-mode t)
@@ -57,6 +54,5 @@ Kill up to, but not including ARGth occurrence of CHAR." t)
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; better-defaults-autoloads.el ends here

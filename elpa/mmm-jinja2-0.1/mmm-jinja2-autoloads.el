@@ -1,15 +1,9 @@
 ;;; mmm-jinja2-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-
-(add-to-list 'load-path (directory-file-name
-                         (or (file-name-directory #$) (car load-path))))
-
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "mmm-jinja2" "mmm-jinja2.el" (0 0 0 0))
-;;; Generated autoloads from mmm-jinja2.el
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "mmm-jinja2" '("mmm-jinja2-set-mode-line")))
+;;;### (autoloads nil nil ("mmm-jinja2.el") (23419 9114 499929 856000))
 
 ;;;***
 
@@ -17,6 +11,5 @@
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
-;; coding: utf-8
 ;; End:
 ;;; mmm-jinja2-autoloads.el ends here
