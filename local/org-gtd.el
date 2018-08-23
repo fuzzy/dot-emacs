@@ -1,3 +1,11 @@
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; ORG Dashboard Configs ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(require 'unicode-progress-reporter)
+(unicode-progress-reporter-setup)
+
 ;;;;;;;;;;;;;;;;;;;;;
 ;; ORG GTD Configs ;;
 ;;;;;;;;;;;;;;;;;;;;;
@@ -23,29 +31,22 @@
         ("p" "Project entry format." entry
          (file "/dav:dav@dav.fossco.de:org/project.org")
          "** TODO %?
-  SCHEDULED: %t")))
+  SCHEDULED: %t
+   ASSIGNEE:
+   PROJECT: ")))
 
 (setq org-agenda-custom-commands
-      '(("r" "Sprint Report"
+      '(("r" "Weekly Report"
          ((tags "PRIORITY=\"A\""
                 ((org-agenda-skip-function '(org-agenda-skip-entry-if 'todo 'done))
                  (org-agenda-overriding-header "\nHigh-priority unfinished tasks:\n")))
           (tags "PRIORITY=\"B\""
                 ((org-agenda-skip-function '(org-agenda-skip-entry-if 'todo 'done))
-                 (org-agenda-overriding-header "\nMedium-priority unfinished tasks:\n")
-                 (org-agenda-skip-if nil '(scheduled deadline))))
+                 (org-agenda-overriding-header "\nMedium-priority unfinished tasks:\n")))
           (tags "PRIORITY=\"C\""
                 ((org-agenda-skip-function '(org-agenda-skip-entry-if 'todo 'done))
-                 (org-agenda-overriding-header "\nLow-priority unfinished tasks:\n")
-                 (org-agenda-skip-if nil '(scheduled deadline))))
-          (agenda ""
-                  ((org-agenda-overriding-header "\nScheduled tasks:\n")))
-          (alltodo ""
-                   ((org-agenda-skip-function
-                     '(or (air-org-skip-subtree-if-priority ?A)
-                          (air-org-skip-subtree-if-priority ?B)
-                          (org-agenda-overriding-header "\nBacklog:\n")))))))))
-
+                 (org-agenda-overriding-header "\nLow-priority unfinished tasks:\n")))
+          (agenda "")))))
 
 ;; (setq org-agenda-custom-commands
 ;;       '(("c" "Simple agenda view"
@@ -86,7 +87,16 @@ PRIORITY may be one of the characters ?A, ?B, or ?C."
 ;; ORG GTD keybindings ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(define-key global-map (kbd "C-c t a") 'pop-to-org-agenda)
-(define-key global-map (kbd "C-c c") 'org-capture)
-(define-key global-map (kbd "C-c a") 'org-agenda)
-(define-key global-map (kbd "C-c p") 'org-publish)
+(define-prefix-command 'thwap-map)
+(global-set-key (kbd "C-t") 'thwap-map)
+(define-key thwap-map (kbd "t a") 'pop-to-org-agenda)
+(define-key thwap-map (kbd "c") 'org-capture)
+(define-key thwap-map (kbd "a") 'org-agenda)
+(define-key thwap-map (kbd "p") 'org-pomodoro)
+(define-key thwap-map (kbd "P") 'org-publish)
+(define-key thwap-map (kbd "k I") 'org-kanban/initialize)
+(define-key thwap-map (kbd "k E") 'org-kanban/initialize-at-end)
+(define-key thwap-map (kbd "k B") 'org-kanban/initialize-at-beginning)
+(define-key thwap-map (kbd "k n") 'org-kanban/next)
+(define-key thwap-map (kbd "k p") 'org-kanban/prev)
+(define-key thwap-map (kbd "k s") 'org-kanban/shift)

@@ -6,12 +6,15 @@
       ;;;; base support
       '(yasnippet
         auto-complete
+	dash
 	neotree
 	better-defaults
+        unicode-progress-reporter
 	;;;; org-mode support bits
 	org-plus-contrib
 	org-bullets
 	org-beautify-theme
+        org-pomodoro
 	htmlize
 	dash
 	ledger-mode
