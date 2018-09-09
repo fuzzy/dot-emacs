@@ -10,30 +10,30 @@
 ;; ORG GTD Configs ;;
 ;;;;;;;;;;;;;;;;;;;;;
 
-(setq org-agenda-files (file-expand-wildcards "/dav:dav@dav.fossco.de:org/*.org"))
+;; (setq tramp-default-method "ssh")
+;;(setq org-directory "/ssh:org@45fce22.c0d0p0s0.net:*.org")
+;; (setq org-agenda-files (file-expand-wildcards "/ssh:org@45fce22.c0d0p0s0.net:*.org"))
+
 
 (setq org-todo-keywords
-      '((sequence "TODO" "WIP" "STALLED" "|" "DONE" "DEPRECATED" "CANCELLED" )))
+      '((sequence "TODO" "WIP" "|" "DONE" "CANCELLED" )))
 
 (setq org-capture-templates
       '(("a" "My TODO task format." entry
-         (file "/dav:dav@dav.fossco.de:org/tasks.org")
-         "** TODO %?
-  SCHEDULED: %t")
+         (file "/ssh:org@org.c0d0p0s0.net:org/tasks.org")
+         "** TODO %?")
         ("c" "Calendar entry format." entry
-         (file "/dav:dav@dav.fossco.de:org/calendar.org")
-         "** TODO %?
-  SCHEDULED: %t")
-        ("f" "Financial entry format." entry
-         (file "/dav:dav@dav.fossco.de:org/financial.org")
-         "** TODO %?
-  SCHEDULED: %t")
+         (file "/ssh:org@org.c0d0p0s0.net:org/calendar.org")
+         "** TODO %?")
+        ("n" "Notes entry format." entry
+         (file "/ssh:org@org.c0d0p0s0.net:org/notes.org")
+         "* %?")
+        ("r" "R & D format." entry
+         (file "/ssh:org@org.c0d0p0s0.net:org/rnd.org")
+         "** TODO %?")
         ("p" "Project entry format." entry
-         (file "/dav:dav@dav.fossco.de:org/project.org")
-         "** TODO %?
-  SCHEDULED: %t
-   ASSIGNEE:
-   PROJECT: ")))
+         (file "/ssh:org@org.c0d0p0s0.net:org/project.org")
+         "** TODO %?")))
 
 (setq org-agenda-custom-commands
       '(("r" "Weekly Report"
