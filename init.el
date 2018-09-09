@@ -53,7 +53,13 @@
  '(global-linum-mode t)
  '(inhibit-startup-screen t)
  '(menu-bar-mode nil)
+ '(org-agenda-files (file-expand-wildcards "/ssh:org@org.c0d0p0s0.net:org/*.org"))
  '(org-log-done (quote note))
+ '(package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
+		      ("org" . "https://orgmode.org/elpa/")
+                      ("elpy" . "https://jorgenschaefer.github.io/packages/")
+                      ("marmalade" . "http://marmalade.ferrier.me.uk")
+                      ("melpa" . "http://melpa.milkbox.net/packages/")))
  '(package-selected-packages
    (quote
     (org-dashboard exec-path-from-shell flymake-go go-autocomplete auto-complete go-guru go-mode ansible flycheck pylint pysmell elpy ledger-mode dash htmlize org-beautify-theme org-bullets org-plus-contrib better-defaults neotree yasnippet)))
