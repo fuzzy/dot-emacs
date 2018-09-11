@@ -4,6 +4,12 @@
 
 (require 'package)
 
+(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
+		         ("org" . "https://orgmode.org/elpa/")
+                         ("elpy" . "https://jorgenschaefer.github.io/packages/")
+                         ("marmalade" . "http://marmalade.ferrier.me.uk")
+                         ("melpa" . "http://melpa.milkbox.net/packages/")))
+
 (defun install-package-list (package-list)
        ;; fetch the list of packages available
        (unless package-archive-contents
