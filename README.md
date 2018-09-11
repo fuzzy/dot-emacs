@@ -52,6 +52,7 @@ All T.H.W.A.P. key sequences start with C-t this shall be known as the THWAP key
 ### Json/JS related key sequences
 
 | Key Sequence | Command                             | Description                                 |
+|--------------|-------------------------------------|---------------------------------------------|
 | C-t j r      | json-reformat-region                | Pretty print the currently selected region. |
 | C-t j n r    | json-navigator-navigate-region      | Navigate current json region.               |
 | C-t j n p    | json-navigator-navigate-after-point | Navigate json after the current point.      |
