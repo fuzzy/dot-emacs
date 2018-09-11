@@ -1,6 +1,6 @@
-* T.H.W.A.P. Emacs dot-files
+# T.H.W.A.P. Emacs dot-files
 
-** Installed packages
+## Installed packages
   - [yasnippet](https://github.com/joaotavora/yasnippet)      
   - [auto-complete](https://github.com/auto-complete/auto-complete)
   - [dash](https://github.com/magnars/dash.el)
@@ -29,11 +29,11 @@
   - [flymake-go](https://github.com/dougm/goflymake)
   - [exec-path-from-shell](https://github.com/purcell/exec-path-from-shell)
   
-** keyboard shortcuts
+## keyboard shortcuts
 
 All T.H.W.A.P. key sequences start with C-t this shall be known as the THWAP key.
 
-*** Org related key sequences
+### Org related key sequences
 
 | Key Sequence | Command                             | Description                                 |
 |--------------|-------------------------------------|---------------------------------------------|
@@ -49,7 +49,7 @@ All T.H.W.A.P. key sequences start with C-t this shall be known as the THWAP key
 | C-t k p      | org-kanban/prev                     | Goto previous kanban item.                  |
 | C-t k s      | org-kanban/shift                    | Shift item to the next column.              |
 
-*** Json/JS related key sequences
+### Json/JS related key sequences
 
 | Key Sequence | Command                             | Description                                 |
 | C-t j r      | json-reformat-region                | Pretty print the currently selected region. |
