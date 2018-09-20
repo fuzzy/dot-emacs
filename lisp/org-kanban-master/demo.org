@@ -1,0 +1,10 @@
+#+TODO: Todo Plan Develop Test Done
+#+STARTUP: showall
+* Todo Task One                                                      :urgent:
+* Plan Two                                                          :starred:
+* Develop Three                                                      :kanban:
+* Test Four
+** Test Four1                                                :starred:kanban:
+** Test Four2                                                :starred:kanban:
+* Done Five
+* Kanban

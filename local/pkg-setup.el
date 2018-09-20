@@ -5,10 +5,10 @@
 (require 'package)
 
 (setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
-			 ("org" . "https://orgmode.org/elpa/")
+		         ("org" . "https://orgmode.org/elpa/")
                          ("elpy" . "https://jorgenschaefer.github.io/packages/")
                          ("marmalade" . "http://marmalade.ferrier.me.uk")
-                         ("melpa-stable" . "http://melpa-stable.milkbox.net/packages/")))
+                         ("melpa" . "http://melpa.milkbox.net/packages/")))
 
 (defun install-package-list (package-list)
        ;; fetch the list of packages available
@@ -26,3 +26,4 @@
 (install-package-list package-list)
 
 (require 'better-defaults)
+(load "~/.emacs.d/lisp/org-kanban-master/org-kanban.el")
