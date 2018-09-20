@@ -19,21 +19,30 @@
       '((sequence "TODO" "WIP" "|" "DONE" "CANCELLED" )))
 
 (setq org-capture-templates
-      '(("a" "My TODO task format." entry
+      '(("a" "Non-project task." entry
          (file "/ssh:org@org.c0d0p0s0.net:org/tasks.org")
-         "** TODO %?")
-        ("c" "Calendar entry format." entry
+         "** TODO [#C] %? :task:")
+        ("b" "Bug report" entry
+         (file "/ssh:org@org.c0d0p0s0.net:org/bugs.org")
+         "** TODO [#A] %? :bug:")
+        ("c" "Appointment" entry
          (file "/ssh:org@org.c0d0p0s0.net:org/calendar.org")
-         "** TODO %?")
-        ("n" "Notes entry format." entry
+         "** TODO [#A] %? :appointment:")
+        ("n" "Public notes" entry
          (file "/ssh:org@org.c0d0p0s0.net:org/notes.org")
-         "* %?")
-        ("r" "R & D format." entry
-         (file "/ssh:org@org.c0d0p0s0.net:org/rnd.org")
-         "** TODO %?")
-        ("p" "Project entry format." entry
+         "* [#N] %? :note:")
+        ("P" "Personal notes" entry
+         (file "~/.emacs.d/personal.org")
+         "** TODO [#C] %? :personal:")
+        ("p" "Project task" entry
          (file "/ssh:org@org.c0d0p0s0.net:org/project.org")
-         "** TODO %?")))
+         "** TODO [#A] %? :project:")
+        ("r" "R & D task" entry
+         (file "/ssh:org@org.c0d0p0s0.net:org/rnd.org")
+         "** TODO [#B] %? :RandD:")
+        ("w" "Work tasks" entry
+         (file "~/.emacs.d/work.org")
+         "** TODO [#A] %? :work:")))
 
 (setq org-agenda-custom-commands
       '(("r" "Weekly Report"
