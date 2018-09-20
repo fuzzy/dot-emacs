@@ -40,7 +40,7 @@
         exec-path-from-shell
         ))
 
-
+(load-library "find-lisp")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -48,10 +48,12 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes (quote (tango-dark)))
  '(global-linum-mode t)
+ '(global-visual-line-mode t)
  '(inhibit-startup-screen t)
  '(menu-bar-mode nil)
  '(org-agenda-files
-   (file-expand-wildcards "/ssh:org@org.c0d0p0s0.net:org/*.org"))
+   (find-lisp-find-files "/ssh:org@org.c0d0p0s0.net:org/" "\.org$"))
+   ;; (file-expand-wildcards "/ssh:org@org.c0d0p0s0.net:org/*.org"))
  '(org-log-done (quote note))
  '(package-selected-packages
    (quote
