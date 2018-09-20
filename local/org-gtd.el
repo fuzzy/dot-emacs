@@ -47,14 +47,10 @@
 (setq org-agenda-custom-commands
       '(("r" "Weekly Report"
          ((tags "PRIORITY=\"A\""
-                ((org-agenda-skip-function
-                  '(or (org-agenda-skip-entry-if 'todo 'done)
-                       (my-org-agenda-skip-tag "active" t)))
+                ((org-agenda-skip-function '(org-agenda-skip-entry-if 'todo 'done))
                  (org-agenda-overriding-header "\nHigh-priority unfinished tasks:\n")))
           (tags "PRIORITY=\"B\""
-                ((org-agenda-skip-function
-                  '(or (org-agenda-skip-entry-if 'todo 'done)
-                       (my-org-agenda-skip-tag "active" t)))
+                ((org-agenda-skip-function '(org-agenda-skip-entry-if 'todo 'done))
                  (org-agenda-overriding-header "\nMedium-priority unfinished tasks:\n")))
           (tags "PRIORITY=\"C\""
                 ((org-agenda-skip-function '(org-agenda-skip-entry-if 'todo 'done))
