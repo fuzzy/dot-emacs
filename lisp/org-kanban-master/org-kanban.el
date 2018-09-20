@@ -311,7 +311,7 @@ Return file and marker."
 (defun org-kanban//initialize-mirrored-kanban-at-point ()
   "Create an org-kanban dynamic block at the point."
   (save-excursion
-    (insert "#+BEGIN: kanban :mirrored t\n#+END:\n"))
+    (insert "#+BEGIN: kanban :mirrored nil\n#+END:\n"))
   (org-ctrl-c-ctrl-c))
 
 (defun org-kanban//move (direction)
