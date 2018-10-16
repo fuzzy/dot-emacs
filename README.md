@@ -49,6 +49,16 @@ All T.H.W.A.P. key sequences start with C-t this shall be known as the THWAP key
 | C-t k p      | org-kanban/prev                     | Goto previous kanban item.                  |
 | C-t k s      | org-kanban/shift                    | Shift item to the next column.              |
 
+### Elfeed keybindings
+
+| Key Sequence | Command                             | Description                                 |
+|--------------|-------------------------------------|---------------------------------------------|
+| C-t r s      | elfeed                              | Pop up the RSS feed window                  |
+| C-t r u      | elfeed-update                       | Update all the rss feeds                    |
+| C-t r a      | elfeed-add-feed                     | Add a feed to the elfeed configs            |
+| C-t r d      | elfeed-kill-buffer                  | Close the current elfeed buffer             |
+| C-t r f      | elfeed-searc-live-filter            | Filter based on tags                        |
+
 ### Json/JS related key sequences
 
 | Key Sequence | Command                             | Description                                 |

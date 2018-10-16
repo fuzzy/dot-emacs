@@ -18,32 +18,6 @@
 (setq org-todo-keywords
       '((sequence "TODO" "WIP" "|" "DONE" "CANCELLED" )))
 
-(setq org-capture-templates
-      '(("a" "Non-project task." entry
-         (file "/ssh:org@org.c0d0p0s0.net:org/tasks.org")
-         "** TODO [#C] %? :task:")
-        ("b" "Bug report" entry
-         (file "/ssh:org@org.c0d0p0s0.net:org/bugs.org")
-         "** TODO [#A] %? :bug:")
-        ("c" "Appointment" entry
-         (file "/ssh:org@org.c0d0p0s0.net:org/calendar.org")
-         "** TODO [#A] %? :appointment:")
-        ("n" "Public notes" entry
-         (file "/ssh:org@org.c0d0p0s0.net:org/notes.org")
-         "* [#N] %? :note:")
-        ("P" "Personal notes" entry
-         (file "~/.emacs.d/personal.org")
-         "** TODO [#C] %? :personal:")
-        ("p" "Project task" entry
-         (file "/ssh:org@org.c0d0p0s0.net:org/project.org")
-         "** TODO [#A] %? :project:")
-        ("r" "R & D task" entry
-         (file "/ssh:org@org.c0d0p0s0.net:org/rnd.org")
-         "** TODO [#B] %? :RandD:")
-        ("w" "Work tasks" entry
-         (file "~/.emacs.d/work.org")
-         "** TODO [#A] %? :work:")))
-
 (setq org-agenda-custom-commands
       '(("r" "Weekly Report"
          ((tags "PRIORITY=\"A\""
@@ -117,3 +91,9 @@ PRIORITY may be one of the characters ?A, ?B, or ?C."
 (define-key thwap-map (kbd "k n") 'org-kanban/next)
 (define-key thwap-map (kbd "k p") 'org-kanban/prev)
 (define-key thwap-map (kbd "k s") 'org-kanban/shift)
+;; ELFeed bindings
+(define-key thwap-map (kbd "r s") 'elfeed)
+(define-key thwap-map (kbd "r u") 'elfeed-update)
+(define-key thwap-map (kbd "r a") 'elfeed-add-feed)
+(define-key thwap-map (kbd "r d") 'elfeed-kill-buffer)
+(define-key thwap-map (kbd "r f") 'elfeed-search-live-filter

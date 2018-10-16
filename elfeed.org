@@ -1,0 +1,48 @@
+* blogs                                                        :elfeed:
+** daily                                                              :daily:
+*** http://telescoper.wordpress.com/feed/
+*** http://xkcd.com/rss.xml
+*** http://timharford.com/feed/
+*** http://understandinguncertainty.org/rss.xml
+
+** emacs                                                        :emacs:
+*** http://www.reddit.com/r/emacs/.rss
+*** http://planet.emacsen.org/atom.xml
+*** http://feeds.feedburner.com/XahsEmacsBlog
+*** http://pragmaticemacs.com/feed/
+*** [[http://emacs.stackexchange.com/feeds]]
+
+** Development                                                        :devel:
+*** [[https://planetpython.org/rss20.xml]]                               :python:
+*** [[http://lucumr.pocoo.org/feed.atom]]                                :python:
+*** [[http://www.blog.pythonlibrary.org/feed/]]                          :python:
+*** [[https://doughellmann.com/blog/feed/]]                              :python:
+*** [[http://feeds.feedburner.com/LifeIsShort-YouNeedPython?format=xml]] :python:
+*** [[https://golang.ch/feed/]]                                          :golang:
+*** [[https://appliedgo.net/index.xml]]                                  :golang:
+*** [[https://changelog.com/gotime/feed]]                                :golang:
+*** [[https://dave.cheney.net/category/golang/feed]]                     :golang:
+*** [[https://blog.golang.org/feed.atom]]                                :golang:
+*** [[https://golangcode.com/index.xml]]                                 :golang:
+*** [[https://blog.learngoprogramming.com/feed]]                         :golang:
+
+** Project management                                              :workflow:
+*** [[https://www.scrum.org/resources/blog/rss.xml]]                         :pm:
+*** [[http://www.scrum-breakfast.com/feeds/posts/default?alt=rss]]           :pm:
+*** [[http://feeds.dzone.com/agile]]                                         :pm:
+*** [[https://www.projectmanagement.com/RSS/projectmanagement.xml]]          :pm:
+*** [[https://www.mountaingoatsoftware.com/blog/rss]]                        :pm:
+*** [[http://feeds.dzone.com/devops]]                                    :devops:
+
+** News Stuff                                                          :news:
+*** [[http://feeds.bbci.co.uk/news/world/rss.xml]]                          :bbc:
+*** [[http://feeds.bbci.co.uk/news/rss.xml]]                                :bbc:
+*** [[https://news.google.com/?hl=en-US&gl=US&ceid=US:en&output=rss]]    :google:
+
+** Technology stuff                                                    :tech:
+*** [[https://www.kernel.org/feeds/all.atom.xml]]                         :linux:
+*** [[https://www.freebsd.org/news/rss.xml]]                            :freebsd:
+*** [[http://www.osnews.com/files/recent.xml]]                           :osnews:
+*** [[http://rss.slashdot.org/Slashdot/slashdotMain]]                  :slashdot:
+*** [[https://www.techdirt.com/techdirt_rss.xml]]                      :techdirt:
+

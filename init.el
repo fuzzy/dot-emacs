@@ -1,3 +1,4 @@
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Define dependencies ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -10,7 +11,9 @@
 	neotree
 	better-defaults
         unicode-progress-reporter
-	;;;; org-mode support bits
+        elfeed
+        ;;;; org-mode support bits
+        elfeed-org
 	org-plus-contrib
 	org-bullets
 	org-beautify-theme
@@ -23,6 +26,7 @@
         ein
         elpy
         flycheck
+        flycheck-pycheckers
         py-autopep8
 	;;;; ansible support bits
 	ansible
@@ -51,13 +55,10 @@
  '(global-visual-line-mode t)
  '(inhibit-startup-screen t)
  '(menu-bar-mode nil)
- '(org-agenda-files
-   (find-lisp-find-files "/ssh:org@org.c0d0p0s0.net:org/" "\.org$"))
-   ;; (file-expand-wildcards "/ssh:org@org.c0d0p0s0.net:org/*.org"))
  '(org-log-done (quote note))
  '(package-selected-packages
    (quote
-    (salt-mode py-autopep8 ein org-pomodoro unicode-progress-reporter org-dashboard exec-path-from-shell flymake-go go-autocomplete auto-complete go-guru go-mode ansible flycheck pylint pysmell elpy ledger-mode dash htmlize org-beautify-theme org-bullets org-plus-contrib better-defaults neotree yasnippet)))
+    (elfeed-org flycheck-pycheckers salt-mode py-autopep8 ein org-pomodoro unicode-progress-reporter org-dashboard exec-path-from-shell flymake-go go-autocomplete auto-complete go-guru go-mode ansible flycheck pylint pysmell elpy ledger-mode dash htmlize org-beautify-theme org-bullets org-plus-contrib better-defaults neotree yasnippet)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

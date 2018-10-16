@@ -9,6 +9,11 @@
 
 (require 'ox-org)
 ;; (load "~/.emacs.d/local/org-mind-map/org-mind-map.el")
+(require 'elfeed-org)
+(elfeed-org)
+(setq rmh-elfeed-org-files (list "~/.emacs.d/elfeed.org"))
+
+(setq org-ditaa-jar-path "/usr/share/ditaa/ditaa.jar")
 
 (org-babel-do-load-languages
  'org-babel-load-languages
@@ -18,6 +23,7 @@
    (plantuml . t)
    (latex . t)
    (ledger . t)
+   (ditaa . t)
    (python . t)
    (ruby . t)
    (sql . t)))
