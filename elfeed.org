@@ -45,4 +45,5 @@
 *** [[http://www.osnews.com/files/recent.xml]]                           :osnews:
 *** [[http://rss.slashdot.org/Slashdot/slashdotMain]]                  :slashdot:
 *** [[https://www.techdirt.com/techdirt_rss.xml]]                      :techdirt:
-
+*** [[https://news.ycombinator.com/rss]]                             :hackernews:
+*** [[https://techcrunch.com/feed/]]                                 :techcrunch:
