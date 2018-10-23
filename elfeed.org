@@ -4,6 +4,9 @@
 *** http://xkcd.com/rss.xml
 *** http://timharford.com/feed/
 *** http://understandinguncertainty.org/rss.xml
+*** [[https://www.smbc-comics.com/comic/rss]]
+*** [[https://www.penny-arcade.com/feed]]
+*** [[http://goats.com/feed/]]
 
 ** emacs                                                        :emacs:
 *** http://www.reddit.com/r/emacs/.rss
