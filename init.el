@@ -73,10 +73,19 @@
 
 ;; Base package installer
 (load "~/.emacs.d/local/pkg-setup.el")
+
+;; Base keybindings
+(load "~/.emacs.d/local/kbd-setup.el")
+
+;; ElFeed configurations
+(load "~/.emacs.d/local/elfeed-keys.el")
+
 ;; Org-Mode configurations
 (load "~/.emacs.d/local/org-base.el")
-(load "~/.emacs.d/local/org-gtd.el")
+
 ;; Python configurations
 (load "~/.emacs.d/local/py-setup.el")
+
 ;; Json configuration
 (load "~/.emacs.d/local/js-setup.el")
+

@@ -27,3 +27,5 @@
    (python . t)
    (ruby . t)
    (sql . t)))
+
+(load "~/.emacs.d/local/org-gtd.el")

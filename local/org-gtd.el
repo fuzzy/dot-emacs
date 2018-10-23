@@ -74,26 +74,5 @@ PRIORITY may be one of the characters ?A, ?B, or ?C."
         subtree-end
       nil)))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;
-;; ORG GTD keybindings ;;
-;;;;;;;;;;;;;;;;;;;;;;;;;
+(load "~/.emacs.d/local/org-keys.el")
 
-(define-prefix-command 'thwap-map)
-(global-set-key (kbd "C-t") 'thwap-map)
-(define-key thwap-map (kbd "t a") 'pop-to-org-agenda)
-(define-key thwap-map (kbd "c") 'org-capture)
-(define-key thwap-map (kbd "a") 'org-agenda)
-(define-key thwap-map (kbd "p") 'org-pomodoro)
-(define-key thwap-map (kbd "P") 'org-publish)
-(define-key thwap-map (kbd "k I") 'org-kanban/initialize)
-(define-key thwap-map (kbd "k E") 'org-kanban/initialize-at-end)
-(define-key thwap-map (kbd "k B") 'org-kanban/initialize-at-beginning)
-(define-key thwap-map (kbd "k n") 'org-kanban/next)
-(define-key thwap-map (kbd "k p") 'org-kanban/prev)
-(define-key thwap-map (kbd "k s") 'org-kanban/shift)
-;; ELFeed bindings
-(define-key thwap-map (kbd "r s") 'elfeed)
-(define-key thwap-map (kbd "r u") 'elfeed-update)
-(define-key thwap-map (kbd "r a") 'elfeed-add-feed)
-(define-key thwap-map (kbd "r d") 'elfeed-kill-buffer)
-(define-key thwap-map (kbd "r f") 'elfeed-search-live-filter)
