@@ -7,7 +7,14 @@
 
 ;;; Here you can configure the options you want to enable
 (setq thwap/layers '("base"
-                     "rss"))
+                     "rss"
+                     ;; "python"
+                     ;; "golang"
+                     ;; "docker"
+                     ;; "ansible"
+                     ;; "saltstack"
+                     ;; "javascript"
+                     "org"))
 
 
 ;;; Package repos:
@@ -62,14 +69,6 @@ The return value is the new value of LIST-VAR."
 ;; Define dependencies ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; org-plus-contrib
-;; org-bullets
-;; org-beautify-theme
-;; org-pomodoro
-;; htmlize
-;; dash
-;; ledger-mode
-;; ;; org-dashboard
 ;; ;;;; python support bits
 ;; ein
 ;; elpy
