@@ -69,17 +69,6 @@ The return value is the new value of LIST-VAR."
 ;; Define dependencies ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; ;;;; python support bits
-;; ein
-;; elpy
-;; flycheck
-;; flycheck-pycheckers
-;; py-autopep8
-;; ;;;; docker support bits
-;; dockerfile-mode
-;; docker-compose-mode
-;; ;;;; ansible support bits
-;; ansible
 ;; ;;;; json support bits
 ;; json-mode
 ;; json-navigator
