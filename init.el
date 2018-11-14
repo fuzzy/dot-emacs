@@ -65,23 +65,6 @@ The return value is the new value of LIST-VAR."
 (dolist (x thwap/layers)
   (thwap/activate x))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Define dependencies ;;
-;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;; ;;;; json support bits
-;; json-mode
-;; json-navigator
-;; json-reformat
-;; ;;;; saltstack support bits
-;; salt-mode
-;; ;;;; golang support bits
-;; go-mode
-;; go-guru
-;; go-autocomplete
-;; ;; flymake-go
-;; exec-path-from-shell
-
 (load-library "find-lisp")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -107,26 +90,4 @@ The return value is the new value of LIST-VAR."
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Noto Sans Mono" :foundry "GOOG" :slant normal :weight normal :height 83 :width normal)))))
-
-;;;;;;;;;;;;;;;;;;;;;
-;; Package imports ;;
-;;;;;;;;;;;;;;;;;;;;;
-
-;; ;; Base package installer
-;; (load "~/.emacs.d/local/pkg-setup.el")
-
-;; ;; Base keybindings
-;; (load "~/.emacs.d/local/kbd-setup.el")
-
-;; ;; ElFeed configurations
-;; (load "~/.emacs.d/local/elfeed-keys.el")
-
-;; ;; Org-Mode configurations
-;; (load "~/.emacs.d/local/org-base.el")
-
-;; ;; Python configurations
-;; (load "~/.emacs.d/local/py-setup.el")
-
-;; ;; Json configuration
-;; (load "~/.emacs.d/local/js-setup.el")
 
