@@ -30,4 +30,4 @@
    (sql . t)))
 
 (load "~/.emacs.d/local/org/workflow.el")
-(load "~/.emacs.d/local/org-mind-map/org-mind-map.el")
+;; (load "~/.emacs.d/local/org-mind-map/org-mind-map.el")
