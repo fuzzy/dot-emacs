@@ -10,5 +10,6 @@
                      org-pomodoro
                      htmlize
                      ledger-mode
+                     org-preview-html
                      org-dashboard))
 

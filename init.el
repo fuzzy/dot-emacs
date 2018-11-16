@@ -8,12 +8,13 @@
 ;;; Here you can configure the options you want to enable
 (setq thwap/layers '("base"
                      "rss"
-                     ;; "python"
-                     ;; "golang"
-                     ;; "docker"
-                     ;; "ansible"
+                     ;; "exwm"
+                     "python"
+                     "golang"
+                     "docker"
+                     "ansible"
                      ;; "saltstack"
-                     ;; "javascript"
+                     "javascript"
                      "org"))
 
 
@@ -25,6 +26,7 @@
                          ("elpy" . "https://jorgenschaefer.github.io/packages/")
                          ("marmalade" . "http://marmalade.ferrier.me.uk")
                          ("melpa" . "http://melpa.milkbox.net/packages/")))
+(package-initialize t)
 
 (setq thwap/package-list
       ;;;; base support
@@ -81,7 +83,7 @@ The return value is the new value of LIST-VAR."
  '(org-log-done (quote note))
  '(package-selected-packages
    (quote
-    (docker-compose-mode dockerfile-mode ## elfeed-org flycheck-pycheckers salt-mode py-autopep8 ein org-pomodoro unicode-progress-reporter org-dashboard exec-path-from-shell flymake-go go-autocomplete auto-complete go-guru go-mode ansible flycheck pylint pysmell elpy ledger-mode dash htmlize org-beautify-theme org-bullets org-plus-contrib better-defaults neotree yasnippet)))
+    (eww-lnum exwm exwm-x docker-compose-mode dockerfile-mode ## elfeed-org flycheck-pycheckers salt-mode py-autopep8 ein org-pomodoro unicode-progress-reporter org-dashboard exec-path-from-shell flymake-go go-autocomplete auto-complete go-guru go-mode ansible flycheck pylint pysmell elpy ledger-mode dash htmlize org-beautify-theme org-bullets org-plus-contrib better-defaults neotree yasnippet)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces
