@@ -6,4 +6,5 @@
 
 (setq package-list '(yasnippet
                      neotree
+                     use-package
                      unicode-progress-reporter))

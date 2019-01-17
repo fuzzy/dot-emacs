@@ -28,6 +28,9 @@
 *** [[https://blog.golang.org/feed.atom]]                                :golang:
 *** [[https://golangcode.com/index.xml]]                                 :golang:
 *** [[https://blog.learngoprogramming.com/feed]]                         :golang:
+*** https://forum.golangbridge.org/latest.rss                        :golang:
+*** http://www.golangprograms.com/golang/rss/index/store_id/1/       :golang:
+*** http://goz.hexacosa.net/index.rss                                :golang:
 
 ** Project management                                              :workflow:
 *** [[https://www.scrum.org/resources/blog/rss.xml]]                         :pm:
@@ -44,6 +47,8 @@
 
 ** Technology stuff                                                    :tech:
 *** [[https://www.kernel.org/feeds/all.atom.xml]]                         :linux:
+*** https://www.linuxjournal.com/node/feed                            :linux:
+*** http://www.linux-magazine.com/rss/feed/lmi_news                   :linux:
 *** [[https://www.freebsd.org/news/rss.xml]]                            :freebsd:
 *** [[http://www.osnews.com/files/recent.xml]]                           :osnews:
 *** [[http://rss.slashdot.org/Slashdot/slashdotMain]]                  :slashdot:

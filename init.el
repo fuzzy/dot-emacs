@@ -78,12 +78,11 @@ The return value is the new value of LIST-VAR."
  '(global-visual-line-mode t)
  '(inhibit-startup-screen t)
  '(menu-bar-mode nil)
- '(org-agenda-files
-   (find-lisp-find-files "/ssh:org@org.home.devfu.net#2223:/org/" ".org$"))
+ '(org-agenda-files (find-lisp-find-files "~/org" ".org$"))
  '(org-log-done (quote note))
  '(package-selected-packages
    (quote
-    (eww-lnum exwm exwm-x docker-compose-mode dockerfile-mode ## elfeed-org flycheck-pycheckers salt-mode py-autopep8 ein org-pomodoro unicode-progress-reporter org-dashboard exec-path-from-shell flymake-go go-autocomplete auto-complete go-guru go-mode ansible flycheck pylint pysmell elpy ledger-mode dash htmlize org-beautify-theme org-bullets org-plus-contrib better-defaults neotree yasnippet)))
+    (markdown-mode confluence eww-lnum exwm exwm-x docker-compose-mode dockerfile-mode ## elfeed-org flycheck-pycheckers salt-mode py-autopep8 ein org-pomodoro unicode-progress-reporter org-dashboard exec-path-from-shell flymake-go go-autocomplete auto-complete go-guru go-mode ansible flycheck pylint pysmell elpy ledger-mode dash htmlize org-beautify-theme org-bullets org-plus-contrib better-defaults neotree yasnippet)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces
@@ -91,5 +90,5 @@ The return value is the new value of LIST-VAR."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Noto Sans Mono" :foundry "GOOG" :slant normal :weight normal :height 83 :width normal)))))
+ '(default ((t (:family "Noto Mono" :foundry "monotype" :slant normal :weight normal :height 90 :width normal)))))
 

@@ -14,31 +14,31 @@
 ;;(setq org-directory "/ssh:org@45fce22.c0d0p0s0.net:*.org")
 ;; (setq org-agenda-files (file-expand-wildcards "/ssh:org@45fce22.c0d0p0s0.net:*.org"))
 
-(setq org-capture-templates	
-      '(("a" "Non-project task." entry	
-         (file "/ssh:org@org#23:/org/tasks.org")	
-         "** TODO [#C] %? :task:")	
-        ("b" "Bug report" entry	
-         (file "/ssh:org@org#23:/org/bugs.org")	
-         "** TODO [#A] %? :bug:")	
-        ("c" "Appointment" entry	
-         (file "/ssh:org@org#23:/org/calendar.org")	
-         "** TODO [#A] %? :appointment:")	
-        ("n" "Public notes" entry	
-         (file "/ssh:org@org#23:/org/notes.org")	
-         "* [#N] %? :note:")	
-        ("P" "Personal notes" entry	
-         (file "~/.emacs.d/personal.org")	
-         "** TODO [#C] %? :personal:")	
-        ("p" "Project task" entry	
-         (file "/ssh:org@org#23:/org/project.org")	
-         "** TODO [#A] %? :project:")	
-        ("r" "R & D task" entry	
-         (file "/ssh:org@org#23:/org/rnd.org")	
-         "** TODO [#B] %? :RandD:")	
-        ("w" "Work tasks" entry	
-         (file "~/.emacs.d/work.org")	
-         "** TODO [#A] %? :work:")))
+;; (setq org-capture-templates	
+;;       '(("a" "Non-project task." entry	
+;;          (file "/ssh:org@org#23:/org/tasks.org")	
+;;          "** TODO [#C] %? :task:")	
+;;         ("b" "Bug report" entry	
+;;          (file "/ssh:org@org#23:/org/bugs.org")	
+;;          "** TODO [#A] %? :bug:")	
+;;         ("c" "Appointment" entry	
+;;          (file "/ssh:org@org#23:/org/calendar.org")	
+;;          "** TODO [#A] %? :appointment:")	
+;;         ("n" "Public notes" entry	
+;;          (file "/ssh:org@org#23:/org/notes.org")	
+;;          "* [#N] %? :note:")	
+;;         ("P" "Personal notes" entry	
+;;          (file "~/.emacs.d/personal.org")	
+;;          "** TODO [#C] %? :personal:")	
+;;         ("p" "Project task" entry	
+;;          (file "/ssh:org@org#23:/org/project.org")	
+;;          "** TODO [#A] %? :project:")	
+;;         ("r" "R & D task" entry	
+;;          (file "/ssh:org@org#23:/org/rnd.org")	
+;;          "** TODO [#B] %? :RandD:")	
+;;         ("w" "Work tasks" entry	
+;;          (file "~/.emacs.d/work.org")	
+;;          "** TODO [#A] %? :work:")))
 
 (setq org-todo-keywords
       '((sequence "TODO" "WIP" "|" "DONE" "CANCELLED" )))
